@@ -29,7 +29,7 @@ public class Information {
 //		ImageIO.write(bufferedImage, "JPG", new File("D://test//pic//"+System.currentTimeMillis()+".jpg"));
 		ImageIO.write(bufferedImage, "JPG", byteArrayOutputStream);
 		byte[] bytes = byteArrayOutputStream.toByteArray();
-		String res =  YunSu.createByPost("wuzhaozhongguo", "765105646wu", "3040", "60", "30804", "89a9752c89964b26b51177f6bb025ac0", bytes);
+		String res =  YunSu.createByPost("xxxx", "xxxx", "3040", "60", "30804", "89a9752c89964b26b51177f6bb025ac0", bytes);
 		System.out.println(res);
 		JSONObject jsonObject =  JSONObject.parseObject(res);
 		res = jsonObject.get("Result").toString();
