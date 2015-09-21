@@ -45,8 +45,8 @@ public class Information {
 	
 	
 	
-	public static void main(String[] args) throws Exception {
-		Information.recognitionImg();
-	}
+//	public static void main(String[] args) throws Exception {
+//		Information.recognitionImg();
+//	}
 
 }
